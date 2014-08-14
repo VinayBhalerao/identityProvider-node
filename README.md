@@ -4,7 +4,7 @@ This tutorial is a sample IDP developed by 3scale to give you a look and feel ho
 
 1. Google Playground - Client Application
 2. Identity provider - Developed in node.js and mongoDB as database to store the user credentials
-3. Nginx - Authorization endpoints 
+3. Nginx - Authorization and token endpoint 
 4. Redis server - To store the access_tokens
 5. 3scale - Authorization backend for validating the tokens and generating the client_id and client_secret
 
@@ -17,6 +17,6 @@ This tutorial is a sample IDP developed by 3scale to give you a look and feel ho
 1. Clone the repo: `git clone git@github.com:VinayBhalerao/identityProvider-node.git`
 2. Install the packages `npm install`
 3. Change the config/database.ejs with the url given in prequisites section
-4. Change the nginx server url in views/dailog.ejs to `http://<nginx_server>/callback`. Enter the IP address of the nginxserver where installed as shown in tutorial. 
+4. Change the nginx server url in views/dailog.ejs to `http://<nginx_server>/callback`. Enter the IP address of the nginx_server. 
 5. Start the server: `node server.js`
 
