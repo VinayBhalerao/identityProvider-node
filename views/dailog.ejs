@@ -17,9 +17,8 @@
                 <form action="http://184.72.169.82/callback" method="GET">
                         <input type="hidden" name="state" value=<%= state %> />
 			<input type="hidden" name="scope" value=<%= scope %> />
-			<input type="hidden" name="description" value=<%= description %> />
 
-                                <div class="alert alert-danger"> The application requested access to your <strong><%= scope %></strong> data; <i><small><%= description %></small></i> <div>Would you like to grant the access?</div>
+                                <div class="alert alert-danger"> The application requested access to your <strong><%= scope %></strong> data; <div>Would you like to grant the access?</div>
 				</div>
 
                         <input type="submit" value="Allow" id="allow">
