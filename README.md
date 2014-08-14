@@ -10,7 +10,7 @@ This tutorial is a sample IDP developed by 3scale to give you a look and feel ho
 
 ##Prerequisites
 1. Install node with version v0.10.29 or higher
-2. Install MongoDB on localhost or use the [Modulis.io](https://modulus.io/)to create MongoDB setup online. After installation, edit the config/database.js with the mongoDB url
+2. Install MongoDB on localhost or use the [Modulus.io](https://modulus.io/) to create MongoDB setup online. After installation, edit the config/database.js with the mongoDB url
 `mongodb://<user>:<pass>@mongo.onmodulus.net:27017/Mikha4ot`, if Modulus.io is used to create DB OR `mongodb://127.0.0.1/mydb`, if localhost is used to create setup
 
 ##Steps
