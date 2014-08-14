@@ -16,6 +16,7 @@ This tutorial is a sample IDP developed by 3scale to give you a look and feel ho
 ##Steps
 1. Clone the repo: `git clone git@github.com:VinayBhalerao/identityProvider-node.git`
 2. Install the packages `npm install`
-3. Change the config/database.js with the url given in prequisites section
-4. Start the server: `node server.js`
+3. Change the config/database.ejs with the url given in prequisites section
+4. Change the nginx server url in views/dailog.ejs to `http://<nginx_server>/callback`. Enter the IP address of the nginxserver where installed as shown in tutorial. 
+5. Start the server: `node server.js`
 
