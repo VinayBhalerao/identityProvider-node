@@ -13,3 +13,9 @@ This tutorial is a sample IDP developed by 3scale to give you a look and feel ho
 2. Install MongoDB on localhost or use the [Modulis.io](https://modulus.io/)to create MongoDB setup online. After installation, edit the config/database.js with the mongoDB url
 `mongodb://<user>:<pass>@mongo.onmodulus.net:27017/Mikha4ot`, if Modulus.io is used to create DB OR `mongodb://127.0.0.1/mydb`, if localhost is used to create setup
 
+##Steps
+1. Clone the repo: `git clone git@github.com:VinayBhalerao/identityProvider-node.git`
+2. Install the packages `npm install`
+3. Change the config/database.js with the url given in prequisites section
+4. Start the server: `node server.js`
+
